@@ -1,4 +1,4 @@
-FROM golang:1.9-alpine
+FROM golang:1.14-alpine
 COPY . /go/src/github.com/ahmetb/freshpod
 WORKDIR /go/src/github.com/ahmetb/freshpod
 RUN go install .
